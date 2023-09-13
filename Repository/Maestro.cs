@@ -7,7 +7,7 @@ using Repository;
 
 namespace Repository
 {
-    internal class Maestro : Docente
+    internal abstract class Maestro : Docente
     {
         public string GradoAcademico { get; set; }
     }

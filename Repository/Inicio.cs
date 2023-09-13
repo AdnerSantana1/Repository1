@@ -10,7 +10,7 @@ namespace Repository
     {
         public static void Main(string[] args)
         {
-            // Crear instancias de las clases
+        
             Empleado empleado = new Empleado
             {
                 Nombre = "Juan",
@@ -22,14 +22,14 @@ namespace Repository
             {
                 Nombre = "María",
                 Edad = 20,
-                Curso = "Informática"
+                Curso = "Desarrollo de Software"
             };
 
             ExAlumno exAlumno = new ExAlumno
             {
                 Nombre = "Carlos",
                 Edad = 35,
-                CarreraAnterior = "Ingeniería"
+                CarreraAnterior = "Seguridad Informatica"
             };
 
             Docente docente = new Docente
@@ -39,6 +39,7 @@ namespace Repository
                 Salario = 60000,
                 Materia = "Matemáticas"
             };
+
 
             Console.WriteLine("Información del Empleado:");
             empleado.MostrarInformacion();
